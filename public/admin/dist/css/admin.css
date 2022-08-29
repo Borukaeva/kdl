@@ -1,0 +1,56 @@
+.list_item-img {
+    width: 100%;
+    height: 100%;
+}
+.list_item-img label {
+    width: 100%;
+    min-width: 40px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+ }
+.list_item-img.active label {
+     border: 1px solid #7c7c7c;
+ }
+.list_item-img img {
+    max-width: 100%;
+    min-width: 40px;
+    max-height: 100%;
+}
+.list_item-img input {
+    display: none;
+}
+
+.field_add {
+    display: none;
+}
+
+.field_add form,
+.field_add table,
+.field td.form_row form,
+.field td.form_row table{
+    width: 100%;
+}
+.field_add > td,
+.field td.form_row{
+    padding: 0;
+}
+.field_add td,
+.field td.form_row td{
+    border: none;
+}
+.tree > .wrapper {
+    margin-left: 10px;
+}
+.tree > .row:hover {
+    background: #ececec;
+}
+
+.action li > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}

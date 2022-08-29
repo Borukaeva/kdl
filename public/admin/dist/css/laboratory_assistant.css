@@ -1,0 +1,130 @@
+.ordering_research {
+}
+
+.ordering_research .complex_list > ul {
+    display: none;
+}
+
+.ordering_research .complex_list ul,
+.ordering_research .params_list ul,
+.ordering_research .selected_params_list ul {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.ordering_research .params_list .price {
+    float: right;
+}
+
+.ordering_research h5 {
+    padding: 10px 0;
+    border-top: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.ordering_research ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ordering_research li {
+    position: relative;
+}
+
+.ordering_research .complex_list li label,
+.ordering_research .params_list li label {
+    display: inline-block;
+    width: 100%;
+    /*height: 100%;*/
+    margin: 0;
+    padding: 5px;
+    font-weight: normal;
+}
+
+.ordering_research .complex_list li .sub,
+.ordering_research .params_list li .sub {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: 1px solid #00A7AA;
+    border-radius: 2px;
+    background: white;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.ordering_research .complex_list li input,
+.ordering_research .params_list li input {
+    display: none;
+}
+
+.ordering_research .complex_list li input:checked + label,
+.ordering_research .params_list li input:checked + label {
+    background: #64afff;
+}
+
+.ordering_research .complex_list li > ul,
+.ordering_research .params_list li > ul {
+    margin-left: 5px;
+    border-top: 1px solid #c1c1c1;
+}
+
+.ordering_research .complex_list ul li {
+}
+
+.ordering_research .complex_list ul li + li,
+.ordering_research .params_list ul li + li,
+.ordering_research .selected_params_list > ul > li + li {
+    border-top: 1px solid #c1c1c1;
+}
+
+.complex_list li > ul {
+    display: none;
+}
+
+.ordering_research .selected_params_list .selected_bio_item_wrapper {
+    position: relative;
+}
+
+.ordering_research .selected_params_list .selected_bio_item_wrapper .price {
+    color: red;
+}
+
+.ordering_research .selected_params_list .selected_bio_item_wrapper .delete {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: red;
+}
+
+.ordering_research .selected_params_list .selected_bio_item_wrapper .selected_bio_item_barcode_input {
+    color: green;
+}
+
+.ordering_research .selected_params_list .selected_bio_item_wrapper .params_list {
+    font-size: 13px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.ordering_research .selected_params_list .selected_bio_item_wrapper .params_list li {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.ordering_research .selected_params_list .selected_bio_item_wrapper .params_list li + li::before {
+    content: ", ";
+}
+
+.ordering_research .selected_params_list li label {
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+.ordering_research .selected_params_list li input {
+    display: inline-block;
+}
