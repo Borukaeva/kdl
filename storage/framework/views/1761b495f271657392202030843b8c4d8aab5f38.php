@@ -1,0 +1,1 @@
+<h1>test</h1><?php /**PATH /var/www/lrv.kdl-dzagurov.ru/resources/views/admin.blade.php ENDPATH**/ ?>
